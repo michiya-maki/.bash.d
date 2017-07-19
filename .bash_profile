@@ -9,7 +9,7 @@ export HISTIGNORE="fg*:bg*:history*:cd*:h:l:ls:la:ll:exit:pwd:p:"
 HISTTIMEFORMAT='%Y%m%d %T ';
 
 # Terminal
-export PS1="[\[\e[1;31m\\]\u\[\e[0m\]@\[\e[0;35m\]\h\[\e[0m\]]\\$ "
+export PS1="[\[\e[1;31m\\]\u\[\e[0m\]@\[\e[0;35m\]\h\[\e[0m\] \W]\\$ "
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
 # Alias
